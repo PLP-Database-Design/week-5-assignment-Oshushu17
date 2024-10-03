@@ -1,0 +1,16 @@
+<h2> Welcome to TeleMedAfrica</h2>
+<h3> Patient's First Name Page</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Patient First Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% results.forEach(row=>{ %>
+            <tr>
+                <td><%= row.first_name %></td>
+            </tr>
+        <%});%>
+    </tbody>
+</table>

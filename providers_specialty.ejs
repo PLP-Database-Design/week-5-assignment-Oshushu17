@@ -1,0 +1,17 @@
+<h2> Welcome to TeleMedAfrica</h2>
+<h3>Provider's Specialty Page</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Provider Specialty</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% results.forEach(row=>{ %>
+            <tr>
+                <td><%= row.provider_specialty %> </td>
+            </tr>
+        <%});%>
+    </tbody>
+</table>
+
